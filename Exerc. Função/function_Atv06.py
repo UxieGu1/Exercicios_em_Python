@@ -11,4 +11,4 @@ def palindromo(string):
 
 
 print(palindromo("Ame a ema"))  
-print(palindromo("Python"))    
+print(palindromo("Morgana"))    
