@@ -5,7 +5,7 @@ import random as rd
 
 compradores = []
 for i in range(5):
-  alunos = str(input(f'Digite o nome dos alunos que compraram a rifa: '))
+  alunos = str(input(f'Digite o nome do {i + 1}° aluno que comprou a rifa: '))
   compradores.append(alunos)
 
 sorteado = rd.choice(compradores)
